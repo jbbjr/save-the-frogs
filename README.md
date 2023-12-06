@@ -390,18 +390,6 @@ classes
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 
 <table border="1" class="dataframe">
   <thead>
@@ -962,7 +950,7 @@ ConfusionMatrixDisplay.from_predictions(y_test, rf_y_pred, cmap=plt.cm.Blues, co
 
 
     
-![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/rf-cm.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/rf-roc.png)
     
 
 
@@ -973,7 +961,7 @@ plot_roc(rf_pipeline)
 
 
     
-![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/rf-roc.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/rf-cm.png)
     
 
 
@@ -1010,7 +998,7 @@ plot_roc(xgbc_pipeline)
 
 
     
-![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/xgb-roc.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/roc-xgb.png)
     
 
 
