@@ -375,7 +375,7 @@ plt.show()
 
 
     
-![png](save-the-frogs_18_0.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/class-imbalance.png)
     
 
 
@@ -485,7 +485,7 @@ plt.show()
 
 
     
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_22_0.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/groups.png)
     
 
 
@@ -500,7 +500,7 @@ plt.show()
 
 
     
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_23_0.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/precipdist.png)
     
 
 
@@ -512,8 +512,8 @@ sns.heatmap(data=corr, cmap=sns.color_palette(green_palette), annot=True);
 ```
 
 
-    
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_24_0.png)
+
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/corr.png)
     
 
 
@@ -923,7 +923,7 @@ ConfusionMatrixDisplay.from_predictions(y_test, lr_y_pred, cmap=plt.cm.Blues, co
 
 
     
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_57_1.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/lr-cm.png)
     
 
 
@@ -934,7 +934,7 @@ plot_roc(lr_pipeline)
 
 
     
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_58_0.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/lr-roc.png)
     
 
 
@@ -962,7 +962,7 @@ ConfusionMatrixDisplay.from_predictions(y_test, rf_y_pred, cmap=plt.cm.Blues, co
 
 
     
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_60_1.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/rf-cm.png)
     
 
 
@@ -973,7 +973,7 @@ plot_roc(rf_pipeline)
 
 
     
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_61_0.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/rf-roc.png)
     
 
 
@@ -999,7 +999,7 @@ ConfusionMatrixDisplay.from_predictions(y_test_encoded, xgbc_y_pred, cmap=plt.cm
 
 
     
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_63_1.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/xgb-cm.png)
     
 
 
@@ -1010,7 +1010,7 @@ plot_roc(xgbc_pipeline)
 
 
     
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_64_0.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/xgb-roc.png)
     
 
 
@@ -1038,7 +1038,7 @@ ConfusionMatrixDisplay.from_predictions(y_test, gnb_y_pred, cmap=plt.cm.Blues, c
 
 
     
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_66_1.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/gnb-cm.png)
     
 
 
@@ -1049,7 +1049,7 @@ plot_roc(gnb_pipeline)
 
 
     
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_67_0.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/gnb-roc.png)
     
 
 
@@ -1093,7 +1093,7 @@ cmd = ConfusionMatrixDisplay.from_predictions(y_test_encoded, vc_y_pred, cmap=pl
 
 
     
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_72_0.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/voter-cm.png)
     
 
 
@@ -1104,7 +1104,7 @@ plot_roc(voter)
 
 
     
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_73_0.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/voter-roc.png)
     
 
 
@@ -1155,7 +1155,7 @@ f1s = plot_roc(pipelines, X_test, y_onehot_test_encoded, class_id)
 
 
     
-![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_76_0.png)
+![png](https://raw.githubusercontent.com/jbblancojr/endangered_species/main/charts/roc-ovr.png)
     
 ## Business Value
 
