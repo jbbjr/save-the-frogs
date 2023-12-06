@@ -1184,11 +1184,11 @@ An important piece of this project is the utilization of ensemble methods such a
 ## References
 
 **Sources**
-- (World Bank)[https://datacatalog.worldbank.org/search/dataset/0063384/Global%20Species%20Database?version=2]
-- (EDGAR)[https://edgar.jrc.ec.europa.eu/emissions_data_and_maps]
-- (IUCN)[https://www.iucnredlist.org]
-- (Interpreting low F1 and high AUC)[https://stackoverflow.com/questions/34698161/how-to-interpret-almost-perfect-accuracy-and-auc-roc-but-zero-f1-score-precisio]
-- (Multiclass ROC)[https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html]
+- [World Bank](https://datacatalog.worldbank.org/search/dataset/0063384/Global%20Species%20Database?version=2)
+- [EDGAR](https://edgar.jrc.ec.europa.eu/emissions_data_and_maps)
+- [IUCN](https://www.iucnredlist.org)
+- [Interpreting low F1 and high AUC](https://stackoverflow.com/questions/34698161/how-to-interpret-almost-perfect-accuracy-and-auc-roc-but-zero-f1-score-precisio)
+- [Multiclass ROC](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html)
 - Inclass Labs
 - ChatGPT for scaling the ROC plot function
 
