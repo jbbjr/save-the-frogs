@@ -79,19 +79,7 @@ species.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -414,7 +402,7 @@ classes
     .dataframe thead th {
         text-align: right;
     }
-</style>
+
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1169,18 +1157,6 @@ f1s = plot_roc(pipelines, X_test, y_onehot_test_encoded, class_id)
     
 ![png](TeamA1SpeciesSurvivalForcast_files/TeamA1SpeciesSurvivalForcast_76_0.png)
     
-
-
-**Conclusion**
-
-After conducting a thorough analysis of four different models - Random Forest, Logistic Regression, Gradient Boost, and Naive Bayes - we discovered that the two models that performed the best were Random Forest and Gradient Boost. To ensure that our final prediction was as accurate as possible, we decided to create an ensemble voting model to mitigate the possibility of overfitting. This technique allowed us to combine the strengths of both models and generate more precise insights. 
-
-To conclude our analysis, we implemented a stacked ROC curve with all the models utilized. The area under the curve for our voting classifier was around 0.84, which indicates how well our model is able to differentiate between the two classes - whether a species is at high risk of endangerment or least concern. This result is a testament to the effectiveness of our approach and the accuracy of our final prediction.
-
-**Interpretting a high AUC but low F1**
-
-It is important to remember that F1 score is calculated based on a threshold (which by default here is .5). So at the current threshold, our F1 is low across all models and the VotingClassifier. However, we have a reasonable AUC of around .80 for most models. Since AUC is a point-wise metric and ROC is calculated across all thresholds, this coupled with the low F1 score suggested that there is room for improvement by adjusting the threshold.
-
 ## Business Value
 
 Our model goes beyond serving the immediate needs of this project; it presents an unprecedented opportunity in the uncharted territory of predicting animal extinction and stands out as a strategic investment from a business perspective. We propose establishing a consultancy service tailored for governments, positioning itself as a crucial element in informed and effective policy-making utilizing our predictive model. We would charge a fee to the government, and possibly other entities, to use our model and help them create policies.
