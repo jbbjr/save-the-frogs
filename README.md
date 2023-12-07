@@ -505,7 +505,7 @@ sns.heatmap(data=corr, cmap=sns.color_palette(green_palette), annot=True);
     
 
 
-## Creating Pipeline
+## Pipe it up ㄥ(⸝ ، ⸍ )‾‾‾‾‾
 
 ### Data Transformations
 
